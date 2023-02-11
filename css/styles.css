@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: 'Karla', sans-serif;
+    background-color: hsl(206, 472%, 93%)
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+    /* consultar */
+}
+
+
+.container {
+
+    width: 80%;   
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    margin-top: 3.125rem;
+    padding-bottom: 50px;
+
+
+}
+
+.content {
+    padding: 1.3rem 1.25rem;
+}
+
+/* ::community:: */
+
+.community {
+
+    background-color: white;
+}
+
+.com_title {
+
+    color: hsl(179, 62%, 43%);
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 1.25rem;
+
+}
+
+.com_subtitle {
+    color: hsl(71, 73%, 54%);
+    font-size: 0.9375rem;
+
+}
+
+.com_description {
+
+    font-size: 0.8125rem;
+    line-height: 1.3125rem;
+    color: hsl(204, 7%, 80%);
+}
+
+
+
+
+
+
+/* ::subscription:: */
+
+.subscription {
+
+    background-color: hsl(179, 62%, 43%);
+    color: white;
+}
+
+.subs_title {
+    font-size: 1.0625rem;
+}
+
+.subs_price {
+    display: flex;
+    color: hsl(204, 43%, 93%);
+    align-items: center;
+}
+
+
+.subs_price__span {
+    color: white;
+    font-size: 2.0625rem;
+    font-weight: 400;
+    margin-right: 0.625rem;
+
+
+}
+
+.subs_access {
+    color: hsl(204, 43%, 93%);
+    margin-bottom: 1.5625rem;
+
+
+}
+
+.subs_button {
+
+    text-decoration: none;
+    color: white;
+    background-color: hsl(71, 73%, 54%);
+    padding: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 5px 1px 10px gray;
+    
+
+}
+
+/* ::why-us:: */
+.why-us {
+    background-color: hsl(179, 47%, 52%);   
+}
+
+
+.why-us-title {
+
+    color: white;
+    font-size: 1.0625rem;
+    margin-bottom: 0.9375rem;
+}
+
+.why-us-list{
+
+    list-style: none;
+    color: hsla(204, 43%, 93%, 0.75) ;
+    font-size: 0.75rem;
+    line-height: 1.25rem;
+    padding: 0;
+}
+
+
+
+/* ##responsive## */
+
+
+
+@media  screen and (min-width: 768px){
+
+    .container{
+
+        max-width: 40.625rem;
+    }
+
+    .container-responsive{
+
+        display: flex;
+    }
+
+
+    /* consultar esto */
+    .subscription{
+        width: 50%;
+    }
+
+    .why-us{
+
+        width: 50%;
+    }
+
+
+}
+    
